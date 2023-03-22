@@ -31,9 +31,11 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
+
+    transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 
@@ -85,6 +87,26 @@ form label{
 
 div#formulario, form{
     padding: 0px 9px 10px;
+}
+
+div.campo i{
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+
+
+div.campo>input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width:;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
