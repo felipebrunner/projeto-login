@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body{
@@ -21,6 +24,10 @@
         float: right;
         width: 70%;
     }
+
+    
+
+    
     
 }
 
